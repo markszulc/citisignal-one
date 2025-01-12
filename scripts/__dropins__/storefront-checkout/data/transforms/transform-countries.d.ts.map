@@ -1,0 +1,1 @@
+{"version":3,"file":"transform-countries.d.ts","sourceRoot":"","sources":["../../../src/data/transforms/transform-countries.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,OAAO,IAAI,YAAY,EAAE,MAAM,gCAAgC,CAAC;AACzE,OAAO,EAAE,iBAAiB,EAAE,MAAM,gCAAgC,CAAC;AAWnE,eAAO,MAAM,kBAAkB,SACvB,iBAAiB,CAAC,WAAW,CAAC,KACnC,YAAY,EAAE,GAAG,SAenB,CAAC"}
