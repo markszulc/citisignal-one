@@ -1,0 +1,1 @@
+{"version":3,"file":"setShippingMethods.d.ts","sourceRoot":"","sources":["../../../src/api/setShippingMethods/setShippingMethods.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,6BAA6B,EAAE,MAAM,gCAAgC,CAAC;AAM/E,MAAM,MAAM,8BAA8B,GAAG;IAC3C,MAAM,EAAE,MAAM,CAAC;IACf,eAAe,EAAE,6BAA6B,CAAC,kBAAkB,CAAC,CAAC;CACpE,CAAC;AAEF,eAAO,MAAM,wBAAwB,iCAGlC,8BAA8B,sEAWhC,CAAC"}
