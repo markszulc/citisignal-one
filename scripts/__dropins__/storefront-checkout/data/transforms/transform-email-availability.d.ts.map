@@ -1,0 +1,1 @@
+{"version":3,"file":"transform-email-availability.d.ts","sourceRoot":"","sources":["../../../src/data/transforms/transform-email-availability.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,qBAAqB,EAAE,MAAM,gCAAgC,CAAC;AACvE,OAAO,EAAE,iBAAiB,EAAE,MAAM,wBAAwB,CAAC;AAE3D,QAAA,MAAM,0BAA0B,SACxB,qBAAqB,CAAC,kBAAkB,CAAC,KAC9C,iBAEF,CAAC;AAEF,OAAO,EAAE,0BAA0B,EAAE,CAAC"}

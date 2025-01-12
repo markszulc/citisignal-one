@@ -1,0 +1,1 @@
+{"version":3,"file":"get-customer.d.ts","sourceRoot":"","sources":["../../../../src/msw/fixtures/queries/get-customer.ts"],"names":[],"mappings":"AAIA,OAAO,EAEL,gBAAgB,EACjB,MAAM,gCAAgC,CAAC;AAExC,eAAO,MAAM,kBAAkB,EAAE,gBA4ChC,CAAC;AAEF,eAAO,MAAM,oBAAoB,EAAE,gBA4ClC,CAAC"}
