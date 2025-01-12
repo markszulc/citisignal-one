@@ -1,0 +1,98 @@
+/* stylelint-disable no-empty-source */
+/* stylelint-disable */
+
+.dropin-design .checkout-header-title::after,
+.dropin-design .checkout-order-summary__title::after,
+.dropin-design .checkout-cart-summary__title::after {
+  border-bottom: 2px solid var(--color-brand-600);
+  content: "";
+  display: block;
+  padding-top: 8px;
+  min-width: 90px;
+  width: fit-content;
+}
+
+.dropin-design .checkout-header-title,
+.dropin-design .checkout-order-summary__title,
+.dropin-design .checkout-cart-summary__title {
+  text-transform: capitalize;
+}
+
+.dropin-design .checkout-order-summary hr[role="separator"],
+.dropin-design .checkout-cart-summary hr[role="separator"] {
+  display: none;
+}
+
+.dropin-design .checkout-header-title {
+  border-bottom: none;
+}
+
+.dropin-design .checkout-order-summary__title {
+  margin-bottom: 0.5rem;
+}
+
+.dropin-design .checkout-order-summary__row--emphasized {
+  font-weight: 900;
+  margin-top: 3rem;
+}
+
+.dropin-design .checkout-cart-summary__edit {
+  align-self: flex-start;
+  color: var(--color-black-100);
+}
+
+.dropin-design .checkout-cart-summary__items {
+  margin-top: 1.5rem;
+}
+
+.dropin-design .checkout-login,
+.dropin-design .checkout-shippingMethods {
+  padding-bottom: var(--spacing-xbig);
+  border-bottom: 1.5px solid var(--color-neutral-400);
+}
+
+.dropin-design .checkout-paymentMethods {
+  padding-bottom: 1.5rem;
+  border-bottom: 1.5px solid var(--color-neutral-400);
+}
+
+.dropin-design .dropin-accordion-section {
+  padding: var(--spacing-medium);
+}
+
+.dropin-design .checkout-login-form__link {
+  color: var(--color-black-100);
+}
+
+input:-webkit-autofill ~ label,
+input:-webkit-autofill:hover ~ label, 
+input:-webkit-autofill:focus ~ label,
+textarea:-webkit-autofill ~ label,
+textarea:-webkit-autofill:hover ~ label,
+textarea:-webkit-autofill:focus ~ label,
+select:-webkit-autofill ~ label,
+select:-webkit-autofill:hover ~ label,
+select:-webkit-autofill:focus ~ label {
+  font:var(--type-body-2-default-font);
+  letter-spacing:var(--type-body-2-default-letter-spacing);
+  border: 1px solid green;
+}
+
+.dropin-design .checkout-title {
+  border-bottom: 0;
+}
+
+.dropin-design .checkout-title::after {
+  border-bottom: 2px solid var(--color-brand-500);
+  content: "";
+  display: block;
+  padding-top: 8px;
+  min-width: 84px;
+  width: fit-content;
+}
+
+header .nav-hamburger,
+header .nav-sections,
+header .nav-tools {
+  display: none !important;
+}
