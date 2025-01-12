@@ -1,0 +1,36 @@
+/* stylelint-disable */
+
+.dropin-design .order-confirmation-header__title {
+  margin: 0 auto;
+}
+
+.dropin-design .order-confirmation-order-summary {
+  background: var(--color-neutral-200);
+  border: none;
+}
+
+.dropin-design .order-confirmation-order-summary__title {
+  margin-bottom: 1rem;
+}
+
+.dropin-design .order-confirmation-order-summary__title::after,
+.dropin-design .order-confirmation-details__title::after {
+  border-bottom: 2px solid var(--color-brand-500);
+  content: "";
+  display: block;
+  padding-top: 8px;
+  min-width: 90px;
+  width: fit-content;
+}
+
+.dropin-design .order-confirmation-order-summary hr {
+  display: none;
+}
+
+.dropin-design .order-confirmation-details {
+  border: none;
+}
+
+.dropin-design .order-confirmation .order-confirmation-footer {
+  text-align: start;
+}
