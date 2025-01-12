@@ -1,0 +1,96 @@
+.accordion.block {
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+}
+
+.accordion.block details:first-of-type summary {
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+}
+
+.accordion.block details:last-of-type summary {
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+
+.accordion.block details:last-of-type[open] summary {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.accordion.block details summary {
+  position: relative;
+  padding: var(--accordion-summary-padding);
+  padding-right: 48px;
+  cursor: pointer;
+  list-style: none;
+  overflow: auto;
+  transition: background-color 0.2s;
+  background-color: var(--accordion-summary-background);
+  color: var(--accordion-summary-color);
+  border: 0;
+
+}
+
+.accordion.block details:not(:last-child) summary  {
+  border-bottom: var(--accordion-separator-line);
+}
+
+.accordion.block details[open] summary  {
+  border-bottom: var(--accordion-separator-line);
+}
+
+/* remove any margins around text */
+.accordion.block details summary p {
+  margin: 0;
+}
+
+.accordion.block details[open] summary {
+  background-color: var(--accordion-summary-background-open);
+}
+
+.accordion.block details summary:hover {
+  background-color: var(--accordion-summary-background-hover);
+}
+
+.accordion.block details summary::-webkit-details-marker {
+  display: none;
+}
+
+.accordion.block details summary::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%) rotate(135deg);
+  width: 9px;
+  height: 9px;
+  border: 2px solid;
+  border-width: 2px 2px 0 0;
+  transition: transform 0.2s;
+}
+
+.accordion.block details[open] summary::after {
+  transform: translateY(-50%) rotate(-45deg);
+  content:'';
+}
+
+.accordion.block details .accordion-item-body {
+  padding: 0;
+}
+
+.accordion.block details .accordion-item-body p {
+  margin: 0;
+  padding: var(--accordion-details-padding)
+}
+
+.accordion.block details[open] .accordion-item-body {
+  background-color: var(--accordion-details-background);
+  color: var(--details-color);
+}
+
+.accordion.block details[open]:last-child .accordion-item-body {
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+
